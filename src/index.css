@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 모바일 전용 앱 느낌을 위해 배경색을 살짝 잡아줍니다 */
+body {
+  @apply bg-gray-50 text-gray-900;
+}
